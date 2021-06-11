@@ -1,0 +1,20 @@
+#include <cmath>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+
+int main() {
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */  
+    int n,h,ans=0,node,b=0,sub=0;
+    cin>>n;
+    cin>>h;
+         ans=pow(n,h+1);
+          b=ans-1;
+        sub=n-1;
+    node=b/sub;
+    cout<<node;
+    return 0;
+}
